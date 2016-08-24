@@ -13,8 +13,14 @@ IMPORTANT NOTE:
 When running the script 'run_analysis.R' ALL variable names are set to
 lower case and have symbols such as '-' and '()' removed to keep them tidy. This
 is to ensure that the variable names in the output 'tidydata.txt' adhere to
-common principles of tidy data.
+common principles of tidy data (as outlined in lecture by Jeff Leak).
 For example 'tBodyAcc-mean()-X' is edited to 'tbodyaccmeanx'
+
+Furthermore, each variable EXCEPT for 'subject' and 'activity' is an average over
+the corresponding subject-activity grouping. Due to there being over 80 variables
+that are averages, the variable names where left as is instead of adding the word
+'mean' or 'average' to every column.
+
 The complete list of variables in output 'tidydata.txt':
 "subject"                              "activity"
 "tbodyaccmeanx"                        "tbodyaccmeany"
