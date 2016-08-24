@@ -20,7 +20,7 @@ The instructions were ambiguous in a few places so the following assumptions wer
 *  This final data set is tidy because each row is made up of one observation (1 subject and 1 activity combination), each column is one variable (the average of said variable for each grouping), and the variable names are lower case, descriptive, and without unnecessary punctuation. Other variations could have been used that would also have been tidy, but this set-up appeared to be closest to the assignment instructions (as far as we could tell through discussion on the forums).
 
 ##codebook.txt
-The codebook is included and has been updated with a note on the changes the dataset makes to the variable names for the tidy data set. The file 'features.txt' has also been included becuse it is referenced by the codebook.
+The codebook is included and has been updated with a note on the changes the script makes to the variable names for the tidy data set. The file 'features.txt' has also been included becuse it is referenced by the codebook.
 
 ##tidydata.txt
 This is included because I was unsure if the output of our script should also be included here, so I played it safe and included it.
